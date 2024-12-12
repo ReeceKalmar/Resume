@@ -21,18 +21,6 @@
 \input{glyphtounicode}
 
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -112,10 +100,10 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Reece Kalmar} \\ \vspace{1pt}
-    \small 801-971-7163 $|$ \href{mailto:x@x.com}{\underline{ralmarkalmar@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/reece-kalmar-574806241/}{\underline{https://www.linkedin.com/in/reece-kalmar-574806241/}} $|$
-    \href{https://github.com/ReeceKalmar}{\underline{https://github.com/ReeceKalmar}}
+    \textbf{\Huge \scshape Jim Bob} \\ \vspace{1pt}
+    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{JimBob@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/jim-bob/}{\underline{https://www.linkedin.com/in/jim-bob/}} $|$
+    \href{https://github.com/ReeceKalmar}{\underline{https://github.com/jim-bob}}
 \end{center}
 
 
@@ -123,10 +111,10 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Utah}{Salt Lake City, UT}
-      {Bachelor's of Science in Computer Science}{Aug. 2022 -- Dec 2025}
+      {T50 University}{America}
+      {Bachelor's of Science in Computer Science}{Aug. 2022 -- May. 2026}
     \resumeSubheading
-      {Salt Lake Community College}{Salt Lake City, UT}
+      {Community College}{America}
       {Associate of Science}{Aug. 2021 -- May 2022}
   \resumeSubHeadingListEnd
 
@@ -137,11 +125,11 @@
 
     \resumeSubheading
       {NFL Data Science Research}{Jan 2024 -- May 2024}
-      {University of Utah}{SLC, UT}
+      {University}{America}
       \resumeItemListStart
-        \resumeItem{Developed visualizations for  NFL data using Python libraries such as Pandas, Matplotlib, NumPy, Seaborn, Plotly and machine learning tools like Scikit-learn and Pytorch.}
-        \resumeItem{Cleaned and analyzed NFL playoff data, implementing a machine learning model that accurately predicted 9 of the last 10 Super Bowl winners.}
-        \resumeItem{Applied statistical models, including Bernoulli and Poisson distributions, to build predictive models for game outcomes.}
+        \resumeItem{Developed visualizations for  NFL data using Python libraries such as Pandas, Matplotlib, NumPy, Seaborn, Plotly and machine learning tools like Scikit-learn}
+        \resumeItem{Cleaned and analyzed NFL playoff data, implementing a machine learning model that had a prediction accuracy of 90\%.}
+        \resumeItem{Applied different statistical models, including Bernoulli distributions, linear regression, K-Means, to understand the underlying dataset.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -156,10 +144,11 @@
 
     \resumeSubheading
       {Software Engineer Intern}{May 2023 -- September 2023}
-      {Spa Wellness Center}{Draper, UT}
+      {Company}{America}
       \resumeItemListStart
-        \resumeItem{Integrated Aesthetic Record EMR with Growth99 and Mailchimp using Zapier to automate data flow and streamline marketing and customer management processes.}
-        \resumeItem{Developed a REST API using Java Spring Boot to interface with the Calendly appointment booking system, enabling efficient access and management of NoSQL data.}
+        \resumeItem{Integrated Aesthetic Record EMR with Growth99 and Mailchimp using Zapier to automate data flow and improve aesthetician productivity by 33\%.}
+        \resumeItem{Developed and integretared REST API using Java Spring Boot to interface with NoSQL data base.}
+        \resumeItem{Used the same API to chart clients business habits and purchases to better improve product offerings.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -169,18 +158,25 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Spreadsheet} $|$ \emph{C\#, MStest, Avalonia}}{Aug 2024 -- Present}
+          {\textbf{Spreadsheet} $|$ \emph{C\#, MStest, Blazor, Javascript}}{Aug 2024 -- September 2024}
           \resumeItemListStart
-            \resumeItem{Developing a Cross platform spreadsheet app}
-            \resumeItem{Implemented algorithm for parsing and evaluating infix formulas}
-            \resumeItem{Using Avalonia for front end to be able to display spreadsheet}
+            \resumeItem{Developed a spreadsheet web app, using blazor and javascript to create a dynamic web app cabaple of resizing a users spreadsheet to their liking.}
+            \resumeItem{Implemented algorithm for parsing and evaluating infix formulas and cell dependencies.}
+            \resumeItem{Used json to enable the user to save and load different spreadsheets.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Snake} $|$ \emph{JavaScript, HTML, CSS}}{May 2024 -- Present}
+          {\textbf{Snake} $|$ \emph{C\#, Blazor, Javascript, HTML, CSS}}{September 2024 -- December 2024}
           \resumeItemListStart
-            \resumeItem{Developed a fully-functional Snake game from scratch to reinforce core concepts of JavaScript, HTML, and CSS without the use of external frameworks.}
-            \resumeItem{Implemented game logic, collision detection, and dynamic rendering on the HTML canvas, enhancing problem-solving and DOM manipulation skills.}
-            \resumeItem{Gained a deeper understanding of browser-based development, responsive design, and user interaction through this project.}
+            \resumeItem{Developed a multiplayer Snake game, using networking via TCP and sockets, SQL, and json to send and recieve game state.}
+            \resumeItem{Implemented game logic and collision detection serverside to reduce computing required user side. The game controller (server) sends game state regularly for high fps (144fps).}
+            \resumeItem{Used SQL database with the backend server to store gamestate during set event that would store player scores game stateetc. This enabled the collection how a game played out}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{LoLAPIWrapper} $|$ \emph{TypeScript, Expressjs, Docker, Python, AWS, PostgreSQL }}{November 2024 -- Current}
+          \resumeItemListStart
+            \resumeItem{Developed a RESTful api that interacts and acts as an interface with various different endpoints from Riot games.}
+            \resumeItem{Used with Python to collect mass amount of player data later to be used in a machine learning model. Was able to collect 300,000 player acount information}
+            \resumeItem{Project was dockerized to run on AWS ec2 instance, in conjuction with a python script which enabled the automatic pulling of data from the api and storing it in an Amazon RDS PostgreSQL database. }
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -191,10 +187,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C\#, NoSQL, JavaScript, HTML/CSS} \\
-     \textbf{Frameworks}{: JUnit, MSTest, Tailwind CSS, SpringBoot} \\
-     \textbf{Developer Tools}{: Nodejs, Git, VS Code, Visual Studio, Bash, Maven, Dotnet} \\
-     \textbf{Libraries}{: React, pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, Pytorch}
+     \textbf{Languages}{: Java, Python, C\#, NoSQL, JavaScript/TypeScript, HTML/CSS} \\
+     \textbf{Frameworks}{: ExpressJs, JUnit, MSTest, Tailwind CSS, SpringBoot, Winston, ASP.NET} \\
+     \textbf{Developer Tools}{: Nodejs, Git, VS Code, Bash, Maven, Dotnet, Docker, AWS, SQL, NextJS} \\
+     \textbf{Libraries}{: React, pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn}
     }}
  \end{itemize}
 
